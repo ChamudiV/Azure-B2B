@@ -1,0 +1,28 @@
+a.disabled {
+  color: gray;
+  cursor: not-allowed;
+  text-decoration: underline;
+}
+a{
+  float:left;
+  font-size:20px;
+}
+
+li{
+	list-style-type:none;
+	text-align:center;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size:20px;
+	float: right;;
+	/* height:40px;
+  width:170px;
+  background-color:silver; */
+}
+li a{
+	text-decoration:none;
+	display:block;
+	color:rgb(154, 20, 167);
+	height:40px;
+	width:170px;
+	line-height:42px;
+}

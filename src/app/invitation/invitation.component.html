@@ -1,0 +1,32 @@
+<br/>
+<br/>
+<br/>
+<div id="userIdentifier">
+  Welcome {{userData?.displayName}} !!
+ </div>
+<div class="form">
+    <h1>Add Users to TAG</h1>
+    <!-- (submit)=onSubmit(form) -->
+        <form #form="ngForm" (submit)=onSubmit()>
+            <div class="form-group">
+                <!-- <label>Email Address</label> -->
+                <input id="Name"  name="Name" placeholder="Name" [(ngModel)]="name" required>
+            </div>
+            <br/>
+            <div class="form-group">
+                <!-- <label>Email Address</label> -->
+                <input id="EmailAddress" name="EmailAddress" placeholder="Email Address" [(ngModel)]="emailAddress" required>
+            </div>
+            <br/>
+            <div class="form-group">
+                <!-- <label>Request Comment </label> -->
+                <textarea id="InviteMessage" name="InviteMessage" placeholder="Invite Message" [(ngModel)]="message" required></textarea>
+            </div>
+            <br/>
+            <div class="form-group">
+                <button type="submit" class="submit button">SUBMIT</button>
+            </div>
+      </form>
+</div>
+
+

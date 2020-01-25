@@ -1,0 +1,14 @@
+.form-group>input,textarea{
+    font-weight: bolder;
+    width: 30%;
+    font-style: calibri;
+}
+button[type="submit"]{
+    background-color: rgb(188, 240, 237);
+    color: rgb(37, 13, 177);
+    width: 30%;
+    height:40px ;
+}
+.form{
+    text-align:center;
+}
